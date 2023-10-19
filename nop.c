@@ -6,7 +6,7 @@
  * @counter: nothing
  * return: nothing
  */
-void f_push(stack_t **head, unsigned int counter)
+void f_nop(stack_t **head, unsigned int counter)
 {
 	(void) head;
 	(void) counter;
