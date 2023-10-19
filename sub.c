@@ -3,7 +3,7 @@
 /**
  * f_sub - subtracts two contents of nodes
  * @head: head of node
- * counter: line_number
+ * @counter: line_number
  * return: no return
  */
 
