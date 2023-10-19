@@ -21,7 +21,7 @@ void f_push(stack_t **head, unsigned int counter)
 		}
 		if (flag == 1)
 		{
-			fprintf(stderr, "L%d: usage: push integer\n, counter");
+			fprintf(stderr, "L%d: usage: push integer\n", counter);
 			fclose(bus.file);
 			free(bus.content);
 			free_stack(*head);
@@ -30,7 +30,7 @@ void f_push(stack_t **head, unsigned int counter)
 	}
 	else /* if no arguments were received */
 	{
-		fprintf(stderr, "L%d: usage: push integer\n, counter");
+		fprintf(stderr, "L%d: usage: push integer\n", counter);
 		fclose(bus.file);
 		free(bus.content);
 		free_stack(*head);
